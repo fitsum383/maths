@@ -1,0 +1,35 @@
+.mybutton{
+  background-color: rgb(80, 255, 246);
+  display:block;
+  margin:30px 10px 50px 840px;
+  padding:10px;
+  font-size: 15px;
+  font-weight: bold; 
+  transition: background-color 0.15s;
+  transition: color 0.15s; 
+  transition-timing-function: ease-in-out;
+  border-radius:8px;
+}
+.mybutton:hover{
+  background-color:black;
+  color:rgb(80, 255, 246);
+}
+.mybutton:active{
+  background-color:white;
+}
+#defaultCanvas0{
+  width:800;
+  height:800;
+  margin :0px;
+  border:black double 10px;
+  border-radius:30px
+  
+ 
+}
+main{
+width:0px; height:0px;
+}
+body{
+  background-image:url(./R.jpg);
+  background-size: cover;
+}
